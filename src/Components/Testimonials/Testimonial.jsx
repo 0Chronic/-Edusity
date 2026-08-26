@@ -10,10 +10,24 @@ import user_4 from '../../assets/user-4.png'
 
 
 const Testimonial = () => {
+
+
+
+  const slideForward = ()=>{
+
+  }
+
+
+   const slideBackward = ()=>{
+    
+  }
+
+
+
   return (
     <div className='testimonials'>
-        <img src={next_icon} className='next-btn' alt="" />
-         <img src={back_icon} className='back-btn' alt="" />
+        <img src={next_icon} className='next-btn' onClick={slideForward} alt="" />
+         <img src={back_icon} className='back-btn' onClick={slideBackward} alt="" />
          <div className="slider">
             <ul>
 
@@ -40,7 +54,7 @@ const Testimonial = () => {
                   <div className="user-info">
                     <img src={user_2} alt="" />
                     <div>
-                      <h3>William Jackson</h3>
+                      <h3>Grey</h3>
                       <span>Edusity, USA</span>
                     </div>
                   </div>
@@ -57,7 +71,7 @@ const Testimonial = () => {
                   <div className="user-info">
                     <img src={user_3} alt="" />
                     <div>
-                      <h3>William Jackson</h3>
+                      <h3>Rose</h3>
                       <span>Edusity, USA</span>
                     </div>
                   </div>
@@ -74,7 +88,7 @@ const Testimonial = () => {
                   <div className="user-info">
                     <img src={user_4} alt="" />
                     <div>
-                      <h3>William Jackson</h3>
+                      <h3>Micheal Jackson</h3>
                       <span>Edusity, USA</span>
                     </div>
                   </div>
