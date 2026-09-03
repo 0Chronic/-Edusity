@@ -27,7 +27,7 @@ const Contact = () => {
             </div>
              <div className="contact-col">
                   <form>
-                        <label htmlFor="Your Name"></label>
+                        <label htmlFor="Your Name">Your Name</label>
                          <input type="text" name="name" placeholder="Enter your name"  />
 
                          <label>Phone Number</label>
@@ -35,8 +35,9 @@ const Contact = () => {
 
                          <label htmlFor="">Write your messages here</label>
                          <textarea name="message" rows="6" placeholder="Enter your message" required></textarea>
-                         <button type="submit" className="btn dark-btn">Submit now <img src={white_arrow} alt="" /></button>
+                         <button type="submit" className="btn dark-btn">Submit now <img src={white_icon} alt="" /></button>
                   </form>
+                  <span> sending</span>
             </div>
         </div>
 
