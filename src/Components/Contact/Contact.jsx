@@ -6,13 +6,13 @@ import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png' 
 import location_icon from '../../assets/location-icon.png'
 import white_icon from '../../assets/white-arrow.png'  
-
+import { Link } from 'react-scroll';
 
 
 const Contact = () => {
   return (
     
-        <div className="contact">
+        <div className="contact" id='contact'>
             <div className="contact-col">
             <h3>Send us a message <img src={msg_icon} alt="" /></h3>
             <p>Feel free to reach out throug contact form or find our contact
